@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 """
-Parsing
+Parsing file to include flybase gene ids and uniprotect gene ids
+
+usage: ./01-fly.py <gene name file>
 """
 
 import sys
