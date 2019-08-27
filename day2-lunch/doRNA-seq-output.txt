@@ -1,0 +1,31 @@
+total 40549408
+-rw-r--r--@ 1 cmdb  staff         464 Aug 27 13:32 README.md
+-rw-r--r--  1 cmdb  staff  3985446457 Aug 27 13:26 SRR072893-hisat2.sam
+-rw-r--r--  1 cmdb  staff     1991262 Aug 27 11:38 SRR072893.10k.fastq
+-rw-r--r--@ 1 cmdb  staff      610311 Aug 27 11:43 SRR072893.10k_fastqc.html
+-rw-r--r--  1 cmdb  staff      431319 Aug 27 11:43 SRR072893.10k_fastqc.zip
+-rw-r--r--  1 cmdb  staff   619813035 Aug 27 13:27 SRR072893.bam
+-rw-r--r--  1 cmdb  staff      240216 Aug 27 13:27 SRR072893.bam.bai
+-r--r--r--  1 cmdb  staff  4582672018 Aug 27 13:18 SRR072893.fastq
+-rw-r--r--  1 cmdb  staff    32929643 Aug 27 13:30 SRR072893.gtf
+-rw-r--r--  1 cmdb  staff      627558 Aug 27 13:25 SRR072893_fastqc.html
+-rw-r--r--  1 cmdb  staff      511890 Aug 27 13:25 SRR072893_fastqc.zip
+-rw-r--r--  1 cmdb  staff     9228288 Aug 27 13:30 SRR072903-hisat2.sam
+-rw-r--r--  1 cmdb  staff    17906074 Aug 27 13:21 SRR072903.bam
+-rw-r--r--  1 cmdb  staff      178416 Aug 27 13:30 SRR072903.bam.bai
+-r--r--r--  1 cmdb  staff  4295582972 Aug 27 13:21 SRR072903.fastq
+-rw-r--r--  1 cmdb  staff    21254144 Aug 27 13:22 SRR072905-hisat2.sam
+-r--r--r--  1 cmdb  staff  5651719468 Aug 27 13:22 SRR072905.fastq
+-r--------  1 cmdb  staff  1486880768 Aug 27 13:22 SRR072915.fastq
+-rw-r--r--  1 cmdb  staff           0 Aug 27 13:35 doRNA-seq-output.txt
+-rwxr-xr-x@ 1 cmdb  staff         475 Aug 27 13:24 doRNA-seq.sh
+-rw-r--r--  1 cmdb  staff     2154166 Aug 27 13:30 e2t.ctab
+-rw-r--r--  1 cmdb  staff     5726602 Aug 27 13:30 e_data.ctab
+-rw-r--r--  1 cmdb  staff     1745148 Aug 27 13:30 i2t.ctab
+-rw-r--r--  1 cmdb  staff     2269315 Aug 27 13:30 i_data.ctab
+-rw-r--r--  1 cmdb  staff     2914398 Aug 27 13:30 t_data.ctab
+drwx------  3 cmdb  staff          96 Aug 27 13:30 tmp.8ij74WR9
+
+/Users/cmdb/qbb2019-answers/day2-lunch/tmp.8ij74WR9:
+total 0
+-rw-r--r--  1 cmdb  staff  0 Aug 27 13:30 SRR072903.gtf.tmp
