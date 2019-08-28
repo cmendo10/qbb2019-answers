@@ -18,4 +18,4 @@ for i, line in enumerate(f):
         continue
     column_1 = field[-1]
     column_2 = field[-2]
-    print(column_1, "\t", column_2)
+    print(column_1,column_2, sep=("\t"))
