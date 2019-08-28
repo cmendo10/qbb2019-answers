@@ -18,3 +18,7 @@ stringtie
 
 stringtie SRR072893.bam -e -B -p 4 -G ../genomes/BDGP6.Ensembl.81.gtf -o SRR072893.gtf
 head SRR072893.gtf 
+
+
+exercise 3:
+cut -f 3 SRR072893-hisat2.sam | sort | grep -v '^@' | uniq -c
