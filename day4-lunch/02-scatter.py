@@ -63,21 +63,40 @@ Graphing the SKEW normal distribution
 # a = float(sys.argv[4])
 # y2 = stats.skewnorm.pdf(x, a, mu, sigma)
 
+coefs = np.polyfit(my_data, my_data2, 1) ###
+my_data_new = np.linspace(0, 12, 100) ###
+f = np.poly1d(coefs)
+# print(f)
+y = f(my_data_new)
+print(y)
+
 fig, ax = plt.subplots()
 ax.scatter(my_data, my_data2, c="blue", alpha=0.1)
+ax.plot(my_data_new,y)
 fig.suptitle("Scatter of SRR07893 and SRR07894")
 ax.set_xlabel("SRR07893")
 ax.set_ylabel("SRR07894")
-# fig.savefig("scatter.png")
-# plt.close(fig)
+fig.savefig("scatter.png")
+plt.close(fig)
 
-# coefs = poly.polyfit(my_data, my_data2, 4) ###
-# my_data_new = np.linspace(0, 12, 100) ###
+
+
 # ffit = poly.polyval(coefs, my_data_new) ###
 # plt.plot(my_data_new, ffit) ###
 
-fig.savefig("scatter.png")
-plt.close(fig)
+### Numpy Fit Line from Class Answers Review
+# log_ctab = np.log2(ctab)
+# log_ctab2 = np.log2(ctab2)
+# coef = np.polyfit(log_ctab, log_ctab2)
+
+# Simpler terms: p = np.polyfit(fpkm1, fpkm2, 1)
+#                 print(p)
+#             or  d = no.poly1d(p)
+#                 print(d)
+
+##### Exercise 3 #####
+
+
 
 # print(y)
 # print(type(y))
