@@ -22,3 +22,9 @@ head SRR072893.gtf
 
 exercise 3:
 cut -f 3 SRR072893-hisat2.sam | sort | grep -v '^@' | uniq -c
+This is the slow way. The fast way is to uniq -c the entire bam which is aleady sorted.
+The fastest way is to use SAMTOOLS idxstats
+
+
+exercise 4:
+The difference between each category is the number of "flags" associated with each. The reads that aligned have more flags such as NM, NH, MD as a few examples. Those that didn't align have columns. 
